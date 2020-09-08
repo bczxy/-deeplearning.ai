@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from Course1_2.lr_utils import load_dataset
-from Util import utils
+from Course1_2 import utils
 
 train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
 
